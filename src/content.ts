@@ -1,0 +1,115 @@
+import "@fontsource/cinzel/600.css";
+import "@fontsource/cinzel/700.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "Saahib's Mughlai Kitchen",
+  sub: { en: "Chicken curry, roast chicken & khamiri roti · DLF Colony, Sector 14", hi: "चिकन करी, रोस्ट चिकन और ख़मीरी रोटी · डीएलएफ़ कॉलोनी, सेक्टर 14" },
+  banner: { en: "The chicken curry people come back for", hi: "वो चिकन करी जिसके लिए लोग लौटते हैं" },
+  phone: "919266981113",
+  phoneDisplay: "+91 92669 81113",
+  lat: 28.4728308,
+  lon: 77.0481615,
+  hours: [[12, 23.5], [12, 23.5], [12, 23.5], [12, 23.5], [12, 23.5], [12, 23.5], [12, 23.5]],
+  theme: {
+    dark: false,
+    bg: "#ffffff",
+    bg2: "#f0f6f3",
+    panel: "#ffffff",
+    ink: "#0e1612",
+    ink2: "#414b46",
+    ink3: "#7b8681",
+    line: "#dce8e2",
+    accent: "#006a4e",
+    onAccent: "#ffffff",
+    display: "Cinzel",
+    weight: 700,
+    upper: false,
+  },
+  scene: "feast",
+  align: "left",
+  hero: {
+    title: [
+      { en: "The chicken curry", hi: "वो चिकन करी" },
+      { en: "worth the drive.", hi: "जिसके लिए सफ़र बनता है।" },
+    ],
+    proof: {
+      en: "4.3 on Google from 224 reviews. Slow-cooked chicken curry, roast chicken, pineapple chutney and khamiri roti, with a rooftop, in DLF Colony, Sector 14.",
+      hi: "गूगल पर 224 रिव्यू से 4.3। धीमी आंच की चिकन करी, रोस्ट चिकन, अनानास की चटनी और ख़मीरी रोटी, रूफ़टॉप के साथ, डीएलएफ़ कॉलोनी, सेक्टर 14 में।",
+    },
+    fallback: "/img/p9.jpg",
+    slides: ["/img/p9.jpg", "/img/p4.jpg", "/img/p10.jpg"],
+  },
+  marquee: ["Chicken Curry", "Roast Chicken", "Pineapple Chutney", "Khamiri Roti", "Mutton", "Hyderabadi Biryani", "Malai Chaap"],
+  dishes: {
+    title: { en: "What to order, in guests' words", hi: "क्या मंगाएं, मेहमानों के शब्दों में" },
+    body: { en: "Every line is a real Google review.", hi: "हर लाइन असली गूगल रिव्यू है।" },
+    layout: "list",
+    items: [
+      { name: { en: "Special Chicken Curry", hi: "स्पेशल चिकन करी" }, quote: "Loved the special chicken curry - rich, slow-cooked and packed with flavour.", img: "/img/p9.jpg" },
+      { name: { en: "Roast Chicken", hi: "रोस्ट चिकन" }, quote: "The chicken curry and roast chicken are absolutely delicious. You gotta eat here!", img: "/img/p4.jpg" },
+      { name: { en: "Mutton", hi: "मटन" }, quote: "Very delicious mutton. Came especially for mutton and was totally worth it." },
+      { name: { en: "Biryani & Malai Chaap", hi: "बिरयानी और मलाई चाप" }, quote: "Authentic taste if Hyderabadi Biryani..malai chaap was 10/10", img: "/img/p10.jpg" },
+    ],
+  },
+  gallery: { title: { en: "", hi: "" }, layout: "strip", photos: [] },
+  feature: {
+    kind: "thali",
+    title: { en: "The full Saahib's table", hi: "साहिब की पूरी थाली" },
+    body: { en: "In one guest's words: comfort food with royal roots.", hi: "एक मेहमान के शब्दों में: शाही जड़ों वाला सुकून भरा खाना।" },
+    img: "/img/p13.jpg",
+    items: [
+      { label: { en: "Chicken curry", hi: "चिकन करी" }, quote: "Best place to have chicken curry in Delhi NCR" },
+      { label: { en: "Non-veg curries", hi: "नॉन-वेज करी" }, quote: "Just WOW food , one of the best non veg curries ever tasted" },
+      { label: { en: "The full spread", hi: "पूरा खाना" }, quote: "Do visit Saahib Mughlai Kitchen to try their iconic chicken curry, flavourful roast chicken, tangy pineapple chutney, and soft khamiri roti — comfort food with royal roots." },
+      { label: { en: "The owner", hi: "मालिक" }, quote: "Staff is humble and even the owner came to take the feedback" },
+    ],
+  },
+  reviews: {
+    title: { en: "172 of 224 reviews are five stars", hi: "224 में से 172 रिव्यू पांच स्टार" },
+    rating: 4.3,
+    dist: [172, 13, 9, 5, 25],
+    quotes: [
+      { quote: "Famous for their rich, flavour-packed Chicken Curry, this place wins hearts with its warm & cozy ambience and stunning rooftop vibes.", stars: 5 },
+      { quote: "Old is gold 🥰 Very good service and the food is very good", stars: 5 },
+      { quote: "Just WOW food , one of the best non veg curries ever tasted", stars: 5 },
+    ],
+  },
+  visit: {
+    title: { en: "HUDA Market Road, DLF Colony", hi: "हुडा मार्केट रोड, डीएलएफ़ कॉलोनी" },
+    img: "/img/p1.jpg",
+    alt: "Saahib's Mughlai Kitchen storefront at night",
+    address: { en: "Shop No. 1, HUDA Market Road, DLF Colony, Sector 14, Gurugram 122007", hi: "शॉप नं. 1, हुडा मार्केट रोड, डीएलएफ़ कॉलोनी, सेक्टर 14, गुरुग्राम 122007" },
+    note: { en: "12 noon to 11:30 PM, every day.", hi: "हर दिन दोपहर 12 से रात 11:30 बजे तक।" },
+  },
+  pour: { from: "pan", into: "kadhai", liquid: "#7a2410", foam: "#b0481e", thick: 2.4, hot: true, extras: "handi" },
+  story: [
+    { kicker: { en: "The curry", hi: "करी" }, title: { en: "Rich and slow-cooked.", hi: "गाढ़ी, धीमी आंच पर पकी।" }, quote: "Loved the special chicken curry - rich, slow-cooked and packed with flavour." },
+    { kicker: { en: "The rooftop", hi: "रूफ़टॉप" }, title: { en: "Warm, cozy, up top.", hi: "गर्मजोशी भरा, ऊपर छत पर।" }, quote: "Famous for their rich, flavour-packed Chicken Curry, this place wins hearts with its warm & cozy ambience and stunning rooftop vibes." },
+    { kicker: { en: "The verdict", hi: "फ़ैसला" }, title: { en: "Best in Delhi NCR.", hi: "दिल्ली NCR में सबसे बढ़िया।" }, quote: "Best place to have chicken curry in Delhi NCR" },
+  ],
+  build: {
+    title: { en: "Build your order in a few taps", hi: "कुछ टैप में अपना ऑर्डर बनाइए" },
+    body: { en: "Tap what you want, dine-in or takeaway, and when. It goes to WhatsApp exactly as you see it.", hi: "जो चाहिए टैप करें, बैठकर या पैक, और कब, चुनें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    pick: { label: { en: "Order", hi: "ऑर्डर" }, options: [
+      { name: { en: "Dine-in", hi: "बैठकर खाना" } },
+      { name: { en: "Takeaway", hi: "पैक करवाना" } },
+    ] },
+    items: [
+      { en: "Special Chicken Curry", hi: "स्पेशल चिकन करी" },
+      { en: "Roast Chicken", hi: "रोस्ट चिकन" },
+      { en: "Mutton", hi: "मटन" },
+      { en: "Khamiri Roti", hi: "ख़मीरी रोटी" },
+      { en: "Hyderabadi Biryani", hi: "हैदराबादी बिरयानी" },
+      { en: "Malai Chaap", hi: "मलाई चाप" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi Saahib's Mughlai Kitchen, I'd like:", hi: "नमस्ते साहिब्स मुग़लई किचन, मुझे चाहिए:" },
+  },
+  waHello: {
+    en: "Hi Saahib's Mughlai Kitchen, I'd like to order. Items: , dine-in / takeaway: , time: ",
+    hi: "नमस्ते साहिब्स मुग़लई किचन, मुझे ऑर्डर देना है। आइटम: , बैठकर / पैक: , समय: ",
+  },
+  order: ["build", "dishes", "feature", "reviews", "visit"],
+};
